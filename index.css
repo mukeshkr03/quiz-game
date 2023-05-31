@@ -1,0 +1,102 @@
+body {
+    /* height: 100vh; */
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10%;
+    background-color: whitesmoke;
+  }
+  
+  #game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1,
+  h2 {
+    text-align: center;
+  }
+  
+  #options,
+  #inputs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .option,
+  .input {
+    width: 70px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+  }
+  
+  .input {
+    width: 70px;
+    height: 50px;
+    border: 2px solid rgb(205, 195, 195);
+    background: white;
+  }
+  
+  .option {
+    background-color: rgb(252, 194, 2);
+    cursor: pointer;
+  }
+  
+  button {
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  #result {
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 810px) {
+    .input {
+      width: 70px;
+      height: 50px;
+    }
+    .option {
+      width: 70px;
+      height: 50px;
+    }
+  }
+  @media screen and (max-width: 650px) {
+    .input {
+      width: 80px;
+      height: 50px;
+    }
+  }
+  
+  #resetBtn {
+    width: 150px;
+    height: 35px;
+    background-color: #4cc7f4;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  #checkBtn {
+    width: 150px;
+    height: 37px;
+    background-color: #149afa;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  #result {
+    font-size: 80px;
+  }
+  
